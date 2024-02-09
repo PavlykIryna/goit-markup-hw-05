@@ -537,7 +537,7 @@ img {
   width: 100%;
   height: 100%;
   top: 0;
-  background: var(--navy-blue-modal);
+  background: rgba(46, 47, 66, 0.4);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -565,9 +565,13 @@ img {
 }
 
 .modal-close {
+  border-radius: 100%;
+  fill: #e7e9fc;
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  border:  1px solid rgba(0, 0, 0, 0.1);
-  border-color: #E7E9FC;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-color: #e7e9fc;
   width: 24px;
   height: 24px;
   position: absolute;
@@ -578,11 +582,10 @@ img {
   justify-content: center;
   cursor: pointer;
   padding: 0;
-
 }
-.modal-close-icon{
-  fill: var(--navy-blue);}
-
+.modal-close-icon {
+  fill: #2e2f42;
+}
 
 .modal-title {
   font-weight: 500;
@@ -590,14 +593,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-blue);
+  color: #2e2f42;
   max-width: 360px;
   margin-bottom: 16px;
 }
 
 .modal-form {
-  width: 360px;
-  height: 336px;
 }
 
 .modal-input-fiel {
@@ -605,7 +606,7 @@ img {
 }
 
 .modal-input {
-  border: 1px solid var(--navy-blue-modal);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 100%;
   height: 40px;
@@ -620,30 +621,56 @@ img {
   font-size: 12px;
   line-height: 1.7;
   letter-spacing: 0.04em;
-  color: var(--light-slate);
+  color: #8e8f99;
   display: block;
   margin-bottom: 4px;
 }
 
 .modal-input-wrap {
   position: relative;
-  
 }
 
 .modal-close-icon-name {
-  width: 18px;
-  height: 18px;
   fill: #2e2f42;
   position: absolute;
   left: 16px;
   top: 50%;
-  left: 50%;
+  left: 16px;
   transform: translateY(-50%);
   transition-duration: 250ms;
   transition-timing-function: calc(0.4, 0, 0.2, 1);
 }
 
-.contact {
-  height: 24px;
+.modal-textarea {
+  min-height: 120px;
+  padding-top: 8px;
+  padding-right: 287px;
+  padding-left: 16px;
+  resize: none;
 }
 
+textarea::placeholder {
+  color: rgba(46, 47, 66, 0.4);
+}
+
+.modal-button {
+  border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+      background: #4d5ae5;
+      font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+              line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #fff;
+        border: none;
+        position: absolute;
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        bottom: 0;
+}
