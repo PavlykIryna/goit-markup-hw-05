@@ -727,7 +727,7 @@ border: none;
 }
 
 .fextarea-fiel {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .modal-textarea {
@@ -750,7 +750,7 @@ border: none;
    
 }
 
- .modal-input-fiel:focus + .modal-textarea {
+ .modal-textarea:focus {
   border-color: #4D5AE5;
 }
 
@@ -803,7 +803,7 @@ textarea::placeholder {
 
 .modal-span {
   fill: transparent;
-  display: inline-flex;
+display: inline-flex;
   border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     height: 16px;
