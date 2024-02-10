@@ -531,7 +531,7 @@ img {
   background-color: #31d0aa;
 }
 
-.footer-input-email {
+.footer-form {
   display: blok;
   width: 453px;
     height: 80px;
@@ -556,9 +556,10 @@ img {
 }
 
 .footer-button {
+  font-family: "Roboto", sans-serif;
   padding: 10px 24px;
 border-radius: 4px;
-  width: 165px;
+min-width: 165px;
   height: 40px;
   background: #4d5ae5;
   display: flex;
