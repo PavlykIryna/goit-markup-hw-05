@@ -531,7 +531,7 @@ img {
   background-color: #31d0aa;
 }
 
-.footer-form {
+.footer-input-email {
   display: blok;
   width: 453px;
     height: 80px;
@@ -575,7 +575,7 @@ min-width: 165px;
   fill: #fff;
 }
 
-.footer-input-email-field{
+.footer-form{
   display: inline-flex;
   gap: 24px;
 }
