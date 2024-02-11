@@ -608,7 +608,6 @@ min-width: 165px;
 .modal {
   background-color: #fcfcfc;
   border-radius: 4px;
-  border: #2e2f42;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   width: 408px;
@@ -671,7 +670,6 @@ border: none;
 }
 
 .modal-form {
-  margin-bottom: 136px;
 }
 
 .modal-input-fiel {
@@ -697,7 +695,7 @@ border: none;
 }
 
 .modal-input:focus{
-  border: #4d5ae5;
+  border: 1px solid #4d5ae5;
 }
 
 .modal-label {
@@ -726,9 +724,6 @@ border: none;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.textarea-fiel {
-  margin-bottom: 16px;
-}
 
 .modal-textarea {
   min-height: 120px;
@@ -769,14 +764,10 @@ textarea::placeholder {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  text-align: center;
   color: #fff;
   border: none;
-  position: absolute;
-  right: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  bottom: 0;
+  display: block;
+  margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-checkbox {
@@ -788,7 +779,6 @@ textarea::placeholder {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  gap: 8px;
 }
 
 .modal-label-checkbox a {
@@ -803,13 +793,13 @@ textarea::placeholder {
 .modal-span {
   fill: transparent;
 display: inline-flex;
-flex: none;
   border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     height: 16px;
     width: 16px;
     align-items: center;
     justify-content: center;
+    margin-right: 8px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
