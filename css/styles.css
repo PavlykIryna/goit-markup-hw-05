@@ -712,6 +712,9 @@ border: none;
   position: relative;
 }
 
+.textarea-fiel {
+margin-bottom: 16px;}
+
 .modal-close-icon-name {
   fill: #2e2f42;
   position: absolute;
